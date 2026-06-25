@@ -250,7 +250,7 @@ python credit_risk_pipeline_final.py [OPTIONS]
 ```
 credit_risk_project/
 │
-├── credit_risk_pipeline_final.py   ← single-file pipeline (run this)
+├── credit_risk_pipeline_final.py   ← single-file pipeline
 │
 ├── src/                            ← modular version (same logic, split by stage)
 │   ├── data_generation.py          Stage 1 — data
@@ -323,13 +323,13 @@ See [`docs/methodology.md`](docs/methodology.md) for the full write-up.
 ## Requirements
 
 ```
-numpy>=1.26
-pandas>=2.0
-scikit-learn>=1.4
-matplotlib>=3.8
-seaborn>=0.13
-kaggle>=1.6        # only needed for real-data download
-pytest>=8.0        # only needed for tests
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+kaggle
+pytest
 ```
 
 Install all:
@@ -339,6 +339,3 @@ pip install -r requirements.txt
 
 ---
 
-## License
-
-MIT — free to use, modify, and distribute.
